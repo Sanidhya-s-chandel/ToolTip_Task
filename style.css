@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(202, 170, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text h1{
+    font-size: 80px;
+    font-weight: 300;
+    font-family: Gilroy;
+}
+
+.tool h4{
+    font-size: 20px;
+    font-family: Gilroy;
+
+}
+
+.tool{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(162, 161, 159, 0.523);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;   
+    position: fixed;
+    visibility: hidden;
+ mix-blend-mode: difference;
+}
+
